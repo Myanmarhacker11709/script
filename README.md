@@ -50,4 +50,19 @@ Car_DealershipSection:NewButton("Gui", "autofarm", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GodXNation/GodXNation/main/midnight%20racing%20hubV2%20fixed", true))()
 end)
 
-local Car_DealershipSection = Car_Dealership:NewSection("godxnation356j")
+local Car_DealershipSection = Car_Dealership:NewSection("Key-godxnation356j")
+
+--FE
+local FE = Window:NewTab("FE")
+local FESection = FE:NewSection("FE")
+
+FESection:NewButton("Samurai", "...", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/kakabok1233453/asdasda/main/Red%20Samurai'),true))()
+end)
+
+local Bloxfruits = Window:NewTab("Bloxfruits")
+local BloxfruitsSection = Bloxfruits:NewSection("Bloxfruits")
+
+BloxfruitsSection:NewButton("Bloxfruits", "...", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-NubXyz-5559", true))()
+end)
